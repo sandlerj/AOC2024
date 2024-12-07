@@ -1,4 +1,18 @@
 # day 3
+"""
+Self imposed constraints:
+- No Regex:
+    re can be pretty costly performance-wise if not done right.
+    I haven't run this in comparison to an RE solution bc I didn't write one and don't wanna snipe someone elses.
+    I don't know how to write performant re and at this point I'm afraid to ask, and I haven't found a scenario
+    IRL at work or in leetcode BS where regex was actually a better option for me personally than using whatever
+    optimized string searching a framework already provided.
+        Plus we aren't back tracking here so this is basically O(n) (I think, don't quote me)
+- No for loops:
+    Sometimes, it's okay to be a tryhard who doesen't get to use python or recursion at her day job. (read: I don't
+    go out of my way to do recursion and it doesn't really come up except for like, one file abstraction lib I 
+    may or may not have worked on).
+"""
 import sys
 
 def canParseInt(s:str):
