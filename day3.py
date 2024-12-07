@@ -1,4 +1,6 @@
-# day 3
+# day 3 NO PART TWO
+
+# I didn't actually want to do this with for loops but just to make sure I understand....
 import sys
 
 def canParseInt(s:str):
@@ -9,7 +11,6 @@ def canParseInt(s:str):
         return False
 
 def partOne(contents: list[str]):
-    # No regex you cunt
     tokenStart = "mul("
     maxIntChars = 3
     minimumAddtlChars = len("x,y)")
